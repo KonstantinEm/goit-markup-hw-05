@@ -69,7 +69,7 @@ html {
   align-items: center;
 }
 .call::before {
-  content: url(/images/icons/callicon.png);
+  content: url(../images/icons/callicon.png);
   padding-right: 8px;
 }
 .mail {
@@ -83,7 +83,7 @@ html {
   align-items: center;
 }
 .mail::before {
-  content: url(/images/icons/mailicon.png);
+  content: url(../images/icons/mailicon.png);
   padding-right: 8px;
 }
 .account-user-nav {
@@ -187,7 +187,7 @@ html {
 .hero {
   display: flex;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/images/banner-images/hero-banner.png);
+    url(../images/banner-images/hero-banner.png);
   height: 600px;
   margin: 0;
   background-size: cover;
@@ -318,25 +318,25 @@ html {
   margin-bottom: 60px;
 }
 .sb1 {
-  background-image: url(/images/icons/service-icon-1.png);
+  background-image: url(../images/icons/service-icon-1.png);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
 }
 .sb2 {
-  background-image: url(/images/icons/service-icon-2.png);
+  background-image: url(../images/icons/service-icon-2.png);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
 }
 .sb3 {
-  background-image: url(/images/icons/service-icon-3.png);
+  background-image: url(../images/icons/service-icon-3.png);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
 }
 .sb4 {
-  background-image: url(/images/icons/service-icon-4.png);
+  background-image: url(../images/icons/service-icon-4.png);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -358,7 +358,7 @@ html {
 }
 .postmain-title::after {
   display: flex;
-  content: url(/images/icons/title-border.png);
+  content: url(../images/icons/title-border.png);
   margin: 0 auto;
   justify-content: center;
 }
@@ -624,7 +624,7 @@ img {
 }
 /* newsletter */
 .newsletter {
-  background-image: url(/images/banner-images/newsletter-baner.png);
+  background-image: url(../images/banner-images/newsletter-baner.png);
   height: 465px;
 }
 .newsletter-cover {
@@ -653,7 +653,7 @@ img {
 }
 .postmain-title-last::after {
   display: flex;
-  content: url(/images/icons/last-title-border.png);
+  content: url(../images/icons/last-title-border.png);
   margin: 0 auto;
   justify-content: center;
 }
@@ -679,7 +679,7 @@ img {
   width: 90px;
   height: 60px;
   background-color: var(--main-hover-color);
-  background-image: url(/images/icons/email-sent-icon.png);
+  background-image: url(../images/icons/email-sent-icon.png);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
