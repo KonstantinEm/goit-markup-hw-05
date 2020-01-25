@@ -37,6 +37,7 @@ html {
   position: sticky;
   top: 0;
   background-color: var(--main-hover-color);
+  overflow-x: hidden;
 }
 .account-nav-cover {
   width: 1110px;
@@ -186,7 +187,7 @@ html {
 .hero {
   display: flex;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/images/hero-banner.png);
+    url(/images/banner-images/hero-banner.png);
   height: 600px;
   margin: 0;
   background-size: cover;
@@ -623,7 +624,7 @@ img {
 }
 /* newsletter */
 .newsletter {
-  background-image: url(/images/newsletter-baner.png);
+  background-image: url(/images/banner-images/newsletter-baner.png);
   height: 465px;
 }
 .newsletter-cover {
@@ -652,7 +653,7 @@ img {
 }
 .postmain-title-last::after {
   display: flex;
-  content: url(/images/TITLE-BORDER.png);
+  content: url(/images/icons/last-title-border.png);
   margin: 0 auto;
   justify-content: center;
 }
